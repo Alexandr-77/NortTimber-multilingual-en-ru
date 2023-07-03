@@ -152,6 +152,10 @@ const langArr = {
       "ru": "Прямые<br>транши",
       "en": "Direct<br>tranches",
    },
+   "home-payment-txt" : {
+      "ru": "Наша миссия - прозрачность и надежность сделок. Содействие международному сотруднечеству и торгово - экономическим отношениям стран, в области дереревообрабатывающего агропромышленого комплекса сельскохозяйственной продукцииНаша миссия - прозрачность и надежность сделок. Содействие международному сотруднечеству и торгово - экономическим отношениям стран, в области дереревообрабатывающего агропромышленого комплекса сельскохозяйственной продукции",
+      "en": "Our mission is transparency and reliability of transactions. Promoting international cooperation and trade and economic relations of countries, in the field of woodworking agro-industrial complex of agricultural products",
+   },
    // --- pilmat ---
    "pilmat-title" : {
       "ru": "Наша продукция",
