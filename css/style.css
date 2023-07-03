@@ -272,6 +272,11 @@ a {
   margin-left: 7px;
   width: 20px;
 }
+.header__top-ikon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 .header__top-ikon a:hover {
   transform: translateY(-3px);
 }
@@ -384,6 +389,7 @@ a {
   height: 24px;
   position: relative;
   cursor: pointer;
+  z-index: 5;
 }
 .burger span {
   display: block;
@@ -508,14 +514,11 @@ a {
     position: absolute;
     width: 100%;
     height: 100vh;
-    top: 90px;
+    top: 40px;
     left: 0;
     background: var(--color-dark);
     padding: 15px 15px 25px;
     z-index: 2;
-  }
-  .header__menu {
-    justify-content: space-between;
   }
   .header__menu-link:hover {
     color: var(--bb);
@@ -528,12 +531,11 @@ a {
   .header {
     min-height: 675px;
   }
-  .header__top {
-    display: none;
+  .header__top-tel-link {
+    margin-right: 10px;
   }
-  .header__block-nav {
-    top: 58px;
-    z-index: 2;
+  .header__top-tel-link:nth-child(3) {
+    display: none;
   }
   .header__menu {
     flex-direction: column;
@@ -560,13 +562,16 @@ a {
   }
   .header__top-tel {
     flex-direction: column;
-    gap: 11px;
+    gap: 9px 11px;
   }
   .header__top-ikon a {
     margin-left: 5px;
   }
+  .select-lang {
+    padding: 3px 0 0 5px;
+  }
   .header__wrap {
-    padding: 10px 0;
+    padding: 0;
   }
   .header__block {
     padding: 5px 0;
@@ -574,7 +579,7 @@ a {
   .header__block-nav {
     width: 100%;
     height: 100vh;
-    top: 60px;
+    top: 55px;
   }
   .header__main p {
     font-size: 21px;
@@ -588,6 +593,12 @@ a {
 /* ====== Медиа 550px /====== */
 /* ====== Медиа 450px ====== */
 @media (max-width: 450px) {
+  .header__top {
+    padding: 8px 0 6px;
+  }
+  .header__top-tel {
+    gap: 8px;
+  }
   .header__main h1 {
     margin-bottom: 27px;
     font-size: 6.5vw;
@@ -1447,10 +1458,26 @@ a {
 
 /* ====== Медиа 450px ====== */
 @media (max-width: 450px) {
+  .--copy-none::after {
+    font-size: 15px;
+    height: 35px;
+  }
+  .footer {
+    padding: 10px 0 10px;
+  }
+  .footer__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 5px;
+  }
   .footer__box-contakts {
     display: flex;
     justify-content: space-around;
     width: 100%;
+  }
+  .footer__box-author {
+    padding-top: 50px;
   }
 }
 /* ====== Медиа 400px ====== */
@@ -1460,8 +1487,7 @@ a {
 /* ====== Медиа 380px ====== */
 @media (max-width: 380px) {
   .footer__box-contakts{
-    flex-direction: column;
-    align-items: center;
+    gap: 0 7px;
   }
   .footer__box-contakts a {
     margin: 0 0 10px;
