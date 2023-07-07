@@ -47,7 +47,7 @@ a {
 .subtitle {
   font-size: 30px;
   line-height: 133%;
-  font-weight: 500;
+  font-weight: 400;
 }
 .subtitle-text {
   font-size: 20px;
@@ -927,12 +927,12 @@ a {
   text-align: center;
 }
 .lumber__box-wrap {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .lumber__subtitle {
   font-size: 25px;
   line-height: 133%;
-  font-weight: 500;
+  font-weight: 400;
 }
 .lumber__box {
   display: flex;
@@ -1012,9 +1012,6 @@ a {
 }
 /* ====== Медиа 550px ====== */
 @media (max-width: 550px) {
-  .lumber__box-wrap {
-    margin-top: 25px;
-  }
   .lumber__box {
     gap: 8px;
   }
@@ -1050,7 +1047,7 @@ a {
   text-align: center;
 }
 .biotop__box-wrap {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .biotop__subtitle {
   font-size: 25px;
@@ -1135,9 +1132,6 @@ a {
 }
 /* ====== Медиа 550px ====== */
 @media (max-width: 550px) {
-  .biotop__box-wrap {
-    margin-top: 25px;
-  }
   .biotop__box {
     gap: 8px;
   }
@@ -1173,14 +1167,14 @@ a {
   background: var(--sm);
 }
 .agro__box-wrap {
-  margin: 50px 0 0;
+  margin: 10px 0 0;
 }
 .agro__box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  margin: 35px 0 0px;
+  margin: 20px 0 50px;
 }
 .agro__box-item {
   display: flex;
@@ -1223,15 +1217,10 @@ a {
 }
 /* ====== Медиа 550px ====== */
 @media (max-width: 550px) {
-  .agro__box-wrap {
-    margin-top: 30px;
-  }
+
 }
 /* ====== Медиа 400px ====== */
 @media (max-width: 400px) {
-  .agro__box {
-    margin: 15px 0 0px;
-  }
   .agro__box-item {
     width: 100%;
   }
@@ -1334,7 +1323,11 @@ a {
 /* ========= contact /======== */
 
 /* ====== Медиа 400px ====== */
-@media (max-width: 400px) {}
+@media (max-width: 400px) {
+  .contact__box {
+    margin: 35px 0 35px;
+  }
+}
 /* ====== Медиа 400px ====== */
 @media (max-width: 400px) {}
 /* ======== agro /======== */
