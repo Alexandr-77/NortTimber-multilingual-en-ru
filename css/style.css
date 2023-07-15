@@ -357,6 +357,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
+  animation-name: main-menu;
+  animation-duration: 2s;
 }
 .header__menu-link {
   font-size: 17px;
@@ -459,6 +461,8 @@ a {
 /* --- main --- */
 .header__main {
   color: var(--st);
+  animation-name: main-anime;
+  animation-duration: 2s;
 }
 .header__cont-main {
   display: flex;
@@ -466,7 +470,7 @@ a {
 }
 .header__box {
   padding: 100px 0 0px;
-  max-width: 750px;
+  max-width: 630px;
 }
 .header__mibox {
   padding: 180px 0 0px;
@@ -490,6 +494,27 @@ a {
   font-size: 26px;
   line-height: 130%;
   margin-bottom: 45px;
+}
+
+@keyframes main-anime {
+  0% {
+    margin-top: -600px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
+@keyframes main-menu {
+  0% {
+    /* margin-right: -600px; */
+    opacity: 0;
+  }
+  100% {
+    /* margin-right: 0px; */
+    opacity: 1;
+  }
 }
 /* ========= Медиа ========= */
 /* ====== Медиа 990px ====== */
