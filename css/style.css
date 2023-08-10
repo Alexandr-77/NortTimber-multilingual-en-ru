@@ -949,6 +949,9 @@ a {
 } */
 /* ======== lumber ======== */
 .lumber {
+  background: url(../img/lumber/lumber-3.jpg) 0 0 / cover no-repeat;
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
 .lumber__box-wrap {
@@ -1069,6 +1072,9 @@ a {
 
 /* ======== biotop ======== */
 .biotop {
+  background: url(../img/biotoplivo/biotoplivo-bg2.jpg) 0 0 / cover no-repeat;
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
 .biotop__box-wrap {
