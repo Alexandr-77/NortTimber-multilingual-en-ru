@@ -7,10 +7,9 @@ let liHeader = document.querySelectorAll('.header__menu-item');
 burger.addEventListener('click', rotateBurger); 
 
 for(let i = 0; i < liHeader.length; i++ ) {
-	if (window.screen.width < 990) {
-		liHeader[i].addEventListener('click', rotateBurger);
-	}
+  liHeader[i].addEventListener('click', rotateBurger);
 }
+
 
 function rotateBurger() { 
   burger.classList.toggle('burger-active');
@@ -27,11 +26,11 @@ function rotateBurger() {
 $(document).ready(function() {
 
 	//E-mail Ajax Send
-	$("form").submit(function() { 
+	$("form").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php",
+			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
 			alert("Спасибо. Ваша заявка была отправлена. Наш менеджер свяжется с вами в течение 24 часов.");
@@ -66,38 +65,3 @@ $('.slider__box').slick({
  ]
 
 });
-// ---------------------------- language -------------------
-
-const select = document.querySelector('.select-lang');
-const allLeng = ['ru', 'en'];
-
-select.addEventListener('change', chengeURLLanguage);
-
-
-function chengeURLLanguage() {
-	let lang = select.value;
-	location.href = window.location.pathname + '#' + lang;
-	location.reload();
-}
-function chengeLanguage() {
-	let hash = window.location.hash;
-	hash = hash.substring(1);
-
-	if (!allLeng.includes(hash)) {
-		location.href = window.location.pathname + '#en';
-		location.reload();
-	}
-	select.value = hash;
-	// document.querySelector('title').innerHTML = langArr['unit'][hash];
-	// document.querySelector('.leng-menu1').innerHTML = langArr['menu1'][hash];
-	// document.querySelector('.leng-menu2').innerHTML = langArr['menu2'][hash];
-	for (let key in langArr) {
-		let elem = document.querySelector('.leng-' + key);
-		if (elem) {
-			elem.innerHTML = langArr[key][hash];
-		}
-	}
-}
-chengeLanguage()
-
-
