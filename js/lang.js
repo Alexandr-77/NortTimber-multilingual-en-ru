@@ -29,7 +29,7 @@ const langArr = {
       "en": "A team of high-calibre specialists in international trade",
    },
    "pilmat-h1" : {
-      "ru": "Мы реалезуем продукцию деревообработки",
+      "ru": "Мы реализуем продукцию деревообработки",
       "en": "We sell woodworking products",
    },
    "biotop-h1" : {
@@ -42,7 +42,7 @@ const langArr = {
    },
    "contact-h1" : {
       "ru": "NortTimber ваш надёжный партнёр",
-      "en": "NortTimber is your trusted partner",
+      "en": "NortTimber is your trusted&nbsp;partner",
    },
 
    "home-bgtext" : {
@@ -146,12 +146,17 @@ const langArr = {
    },
    "home-payment-accreditif" : {
       "ru": "Аккредитиф<br>LC",
-      "en": "Accreditif<br>LC",
+      "en": "Letter <br>of Credit",
    },
    "home-payment-tranches" : {
       "ru": "Прямые<br>транши",
-      "en": "Direct<br>tranches",
+      "en": "Direct<br>Tranches",
    },
+   "home-payment-cash" : {
+      "ru": "Оплата против документов",
+      "en": "Cash Against <br>Documents",
+   },
+
    "home-payment-txt" : {
       "ru": "Наша миссия - прозрачность и надежность сделок. Содействие международному сотруднечеству и торгово - экономическим отношениям стран, в области дереревообрабатывающего агропромышленого комплекса сельскохозяйственной продукцииНаша миссия - прозрачность и надежность сделок. Содействие международному сотруднечеству и торгово - экономическим отношениям стран, в области дереревообрабатывающего агропромышленого комплекса сельскохозяйственной продукции",
       "en": "Our mission is transparency and reliability of transactions. Promoting international cooperation and trade and economic relations of countries, in the field of woodworking agro-industrial complex of agricultural products",
