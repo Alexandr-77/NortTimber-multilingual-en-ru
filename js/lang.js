@@ -26,7 +26,7 @@ const langArr = {
 
    "home-h1" : {
       "ru": "Команда специалистов высокого класса в международной торговле",
-      "en": "A team of high-calibre specialists in international trade",
+      "en": "A team of specialists international trader",
    },
    "pilmat-h1" : {
       "ru": "Мы реализуем продукцию деревообработки",
@@ -37,12 +37,12 @@ const langArr = {
       "en": "We sell environmentally friendly renewable biofuels",
    },
    "agro-h1" : {
-      "ru": "NortTimber актуальные инновации в сельском хозяйстве",
-      "en": "NortTimber current innovations in agriculture",
+      "ru": "NtTrading актуальные инновации в сельском хозяйстве",
+      "en": "NtTrading current innovations in agriculture",
    },
    "contact-h1" : {
-      "ru": "NortTimber ваш надёжный партнёр",
-      "en": "NortTimber is your trusted&nbsp;partner",
+      "ru": "NtTrading ваш надёжный партнёр",
+      "en": "NtTrading is your trusted&nbsp;partner",
    },
 
    "home-bgtext" : {
